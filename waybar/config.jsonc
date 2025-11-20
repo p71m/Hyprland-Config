@@ -164,8 +164,7 @@
     },
     "bluetooth": {
 	"swap-icon-label": true,
-	"format": " {status}",
-	"format-connected": " {device_alias}",
+	"format": "",
 	"on-click": "blueman-manager",
     }, 
     "power-profiles-daemon": {
@@ -183,10 +182,10 @@
     	"swap-icon-label": true, 
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "",
+        "format-ethernet": "",
         "tooltip-format": "{ipaddr}/{cidr}",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "⚠",
 	"on-click": "iwgtk"
         // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
