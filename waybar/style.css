@@ -298,4 +298,5 @@ label:focus {
 {
 	background-color: #ff0d9b;
 	color: #5b5b5b;
+	border-bottom: 3px solid rgba(100, 114, 125, 0.5);
 }
